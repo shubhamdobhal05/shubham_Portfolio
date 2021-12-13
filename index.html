@@ -1,233 +1,392 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <!-- Metadata of the Webpage -->
-    <!-- Character-set Metadata -->
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <!-- Viewport Metadata -->
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- Description Metadata-->
-    <meta name="description" content="Portfolio Website" />
-    <!-- Author Metadata -->
-    <meta name="author" content="Shubham Dobhal" />
-    <!-- Keyword Metadata -->
-    <meta
-      name="keywords"
-    />
-    <!-- Webpage Logo -->
-    <link rel="shortcut icon" href="./assets/img/favicon.ico" />
-    <!-- Webpage Title -->
-    <title>Shubham Dobhal</title>
+<html class="no-js">
 
-    <!-- Import CSS: Main Stylesheet -->
-    <link rel="stylesheet" href="./assets/css/main.css" />
-  </head>
+<head>
+  <!-- Add Your Title -->
+  <title> Shubham's Portfolio</title>
 
-  <body>
-    <div id="particles-js">
-      <div class="header">
-        <h1>
-          <span class="site-title">SHUBHAM DOBHAL</span>
-          <span class="site-description">Programmer • Web Developer</span>
-        </h1>
-        <div class="header-icons">
-          <a aria-label="My LinkedIn Profile" target="_blank" href="https://www.linkedin.com/in/shubham-dobhal-595961215/">
-            <i class="icon fa fa-linkedin" aria-hidden="true"></i>
-          </a>
-          <a aria-label="My Github Profile" target="_blank" href="https://github.com/shubhamdobhal05">
-            <i class="icon fa fa-github-alt" aria-hidden="true"></i>
-          </a>
-          <a aria-label="My Résumé" target="_blank" href="https://drive.google.com/file/d/16TxiGr5wE1y_lgdQ4BG6Qi5JN9xX-3Ht/view?usp=sharing">
-            <i class="icon fa fa fa-file-pdf-o" aria-hidden="true"></i>
-          </a>
-          <a aria-label="Send Email" href="shubhamdobhal@gmail.com" target="_blank"
-            ><i class="icon fa fa-envelope"></i
-          ></a>
+  <!-- All Meta Tags -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+
+  <!-- All Link tags -->
+  <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-72x72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-114x114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-144x144-precomposed.png">
+  <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet'>
+  <link rel="stylesheet" href="css/normalize.min.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- All script tags -->
+  <script>document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+  <script src="js/vendor/jquery.hashchange.min.js"></script>
+  <script src="js/vendor/jquery.easytabs.min.js"></script>
+  <script src="js/main.js"></script>
+
+</head>
+
+<!-- Start of Body Tag -->
+
+<body class="bg-fixed bg-1">
+  <div class="main-container">
+    <div class="main wrapper clearfix">
+
+      <!-- Header Start -->
+      <header id="header">
+        <div id="logo">
+          <h6>
+            Shubham Dobhal
+          </h6>
+          <h4>
+            Full-Stack Web Developer
+          </h4>
         </div>
-        <div class="header-links">
-          <a class="link" href="#about" data-scroll>About Me</a>
-          <a class="link" href="#projects" data-scroll>Projects</a>
+      </header>
+
+      <!-- Text "hello world" -->
+      <header id="header">
+        <div id="helloworld">
+          <h1>
+            Hello, World !
+          </h1>
+        </div>
+      </header>
+
+      <!-- Main Tab Container -->
+      <div id="tab-container" class="tab-container">
+
+        <!-- Tab List -->
+        <ul class='etabs'>
+
+          <li class='tab' id="tab-about">
+            <a href="#about">
+              <i class="icon-user"></i>
+              <span>
+                About Me
+              </span>
+            </a>
+          </li>
+
+          <li class='tab'>
+            <a href="#resume">
+              <i class="icon-file-text"></i>
+              <span>
+                Skills
+              </span>
+            </a>
+          </li>
+
+          <li class='tab'>
+            <a href="#portfolio">
+              <i class="icon-heart"></i>
+              <span>
+                Projects
+              </span>
+            </a>
+          </li>
+
+          <li class='tab'>
+            <a href="#contact">
+              <i class="icon-envelope"></i>
+              <span>
+                Contact
+              </span>
+            </a>
+          </li>
+
+        </ul>
+        <!-- End Tab List -->
+
+        <!-- ----------------------------------------------------------------------------------- -->
+        <!-- Code for differents Tabs strat from here. -->
+        <div id="tab-data-wrap">
+
+          <!-- About Tab Data -->
+          <div id="about">
+            <section class="clearfix">
+              <div class="g2">
+                <div class="photo">
+                  <img src="./images/myPic.JPG" alt="Your alt text">
+                </div>
+                <div class="info">
+                  <h2>
+                    <p></p>
+                    Shubham Dobhal
+                  </h2>
+                  <h4>
+                    Full-Stack Web Developer 
+                  </h4>
+                  <p>
+                    
+                  </p>
+                  </p>
+                </div>
+              </div>
+
+              <div class="g1">
+                <div class="main-links sidebar">
+                  <ul>
+                    <li>
+                      <a href="#resume">
+                        View My Skills
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#portfolio">
+                        View My Projects
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#contact">
+                        Contact
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://drive.google.com/file/d/16TxiGr5wE1y_lgdQ4BG6Qi5JN9xX-3Ht/view?usp=sharing" target="_blank">
+                        Resume
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="break">
+              </div>
+              <div class="contact-info">
+                <div class="g1">
+                  <div class="item-box clearfix">
+                    <i class="icon-envelope"></i>
+                    <div class="item-data">
+                      <h3>
+                        <a href="shubhamdobhal05@gmail.com">
+                          Gmail:
+                        </a>
+                      </h3>
+                      <p>
+                        shubhamdobhal05@gmail.com
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="g1">
+                  <div class="item-box clearfix">
+                    <i class="icon-facebook"></i>
+                    <div class="item-data">
+                      <h3>
+                        <a href="https://github.com/shubhamdobhal05">
+                          Git-Hub:
+                        </a>
+                      </h3>
+                      <p>
+                        https://github.com/shubhamdobhal05
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="g1">
+                  <div class="item-box clearfix">
+                    <i class="icon-twitter"></i>
+                    <div class="item-data">
+                      <h3>
+                        <a href="https://www.linkedin.com/in/shubham-dobhal-595961215/">
+                          Twitter:
+                        </a>
+                      </h3>
+                      <p>
+                        https://www.linkedin.com/in/shubham-dobhal-595961215/
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+          <!-- End About Tab Data -->
+          <!-- ----------------------------------------------------------------------------------- -->
+          <!-- skills Tab Data -->
+          <div id="resume">
+            <section class="clearfix">
+              <div class="g2">
+                <h3>
+                  Programming
+                </h3>
+                <div class="meter emerald">
+                  <span style="width: 90%">
+                    <span>
+                      HTML
+                    </span>
+                  </span>
+                </div>
+                <div class="meter emerald">
+                  <span style="width: 90%">
+                    <span>
+                      CSS
+                    </span>
+                  </span>
+                </div>
+                <div class="meter emerald">
+                  <span style="width: 70%">
+                    <span>
+                      JavaScript
+                    </span>
+                  </span>
+                </div>
+                <div class="meter emerald">
+                  <span style="width: 65%">
+                    <span>
+                      MongoDb
+                    </span>
+                  </span>
+                </div>
+                <div class="meter emerald">
+                  <span style="width: 85%">
+                    <span>
+                      React
+                    </span>
+                  </span>
+                </div>
+                <div class="break"></div>
+              </div>
+
+              <div class="g1">
+                <h3>
+                  Skills
+                </h3>
+                <div class="meter emerald">
+                  <span style="width: 70%">
+                    <span>
+                      Problem Solving
+                    </span>
+                  </span>
+                </div>
+                <div class="meter emerald">
+                  <span style="width: 85%">
+                    <span>
+                       Adaptability
+                    </span>
+                  </span>
+                </div>
+                <div class="meter emerald">
+                  <span style="width: 80%">
+                    <span>
+                      Communication
+                    </span>
+                  </span>
+                </div>
+                
+              </div>
+
+              
+            </section>
+          </div>
+
+          <!-- End skills Tab Data -->
+          <!-- ----------------------------------------------------------------------------------- -->
+          <!-- Projects Tab Data -->
+          <div id="portfolio">
+            <section class="clearfix">
+              <div class="project-section">
+                <div class="project-container">
+                  <div class="project-img-container" onclick="document.getElementById('modal-wrapper').style.display='block'">
+                    <img src="./images/myntra.png" alt="project image">
+                  </div>
+                  <p class="project-title"><a href = "https://github.com/abhishek-hero/lybrate_Clone">Myntra.com</a></p>
+                </div>
+                <div class="project-container">
+                  <div class="project-img-container" onclick="document.getElementById('modal-wrapper').style.display='block'">
+                    <img src="./images/lybrate.png" alt="project image">
+                  </div>
+                  <p class="project-title"><a href = "https://github.com/abhishek-hero/lybrate_Clone">Lybrate.com</a></p>
+                </div>
+               
+              </div>
+              <div id="modal-wrapper" class="modal">
+
+                <form class="modal-content animate">
+
+                  <div class="imgcontainer">
+                    <span onclick="document.getElementById('modal-wrapper').style.display='none'" class="close" title="Close PopUp">&times;</span>
+                    <img src="images/floor.jpg" alt="project" class="avatar">
+                    <h1 class="project_details" style="text-align:center">Project Details</h1>
+                  </div>
+
+                  <div class="container">
+                    <input type="text" placeholder="Project Name" name="uname" readonly>
+                    <textarea class="project_description" rows="3" placeholder="Project Description" readonly></textarea>
+                    <input type="url" placeholder="Project Link"readonly>
+                    <input type="text" placeholder="Languages used" readonly>
+                    <button class="project_submit" type="submit">Submit</button>
+                  </div>
+
+                </form>
+
+              </div>
+            </section>
+          </div>
+          <!-- End Projects tab -->
+          <!-- ----------------------------------------------------------------------------------- -->
+          <!-- Contact Tab Data -->
+          <div id="contact">
+            <section class="clearfix">
+              <div class="g1">
+                <div class="sny-icon-box">
+                  <div class="sny-icon">
+                    <i class="icon-globe"></i>
+                  </div>
+                  <div class="sny-icon-content">
+                    <h4>
+                      Address
+                    </h4>
+                    <p>
+                      Ambala Cantt, Haryana
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="g1">
+                <div class="sny-icon-box">
+                  <div class="sny-icon">
+                    <i class="icon-phone"></i>
+                  </div>
+                  <div class="sny-icon-content">
+                    <h4>
+                      E-mail
+                    </h4>
+                    <p>
+                      shubhamdobhal05@gmail.com<br />shubham_fw10_197@masai.school
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="g1">
+                <div class="sny-icon-box">
+                  <div class="sny-icon">
+                    <i class="icon-user"></i>
+                  </div>
+                  <div class="sny-icon-content">
+                    <h4>
+                      About Me
+                    </h4>
+                    <p>
+                      An aspiring full-stack developer with a specialization in MERN stack. 
+                      Looking forward to a career where learning, innovation and creativity are encouraged. 
+                      Seeking to enhance my skill set to its maximum potential, 
+                      which will help me in achieving the goals of the organization
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="break"></div>
+            </section>
+          </div>
+          <!-- End Contact Data -->
+          <!-- ----------------------------------------------------------------------------------- -->
         </div>
       </div>
-      <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
-    </div>
+</body>
 
-    <!-- About Section -->
-    <section id="about">
-      <!-- User Introduction-->
-      <div class="user-details">
-        <h1>About Me</h1>
-        <picture>
-          <source
-            type="image/webp"
-            srcset="./assets/img/webp/IMG_8566.JPG"
-            alt="Professional Me"
-            width="20%"
-            style="border-radius: 50%"
-          />
-          <img
-            src="./assets/img/jpg/IMG_8566.JPG"
-            alt="Professional Me"
-            width="20%"
-            style="border-radius: 50%"
-          />
-        </picture>
-        <p>
-          An aspiring full-stack developer with a specialization in MERN stack.
-           Looking forward to a career where learning, innovation and creativity are encouraged. 
-           Seeking to enhance my skill set to its maximum potential, 
-          which will help me in achieving the goals of the organization
-        </p>
-        <button style= "width: 120px; height: 50px; border: 1px solid rgb(89, 127, 175); border-radius: 5px; background-color: transparent;
-        box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
-        "><a style= "text-decoration: none; font-weight: 700; color: rgb(66, 66, 66);" target="_blank" href="https://drive.google.com/file/d/16TxiGr5wE1y_lgdQ4BG6Qi5JN9xX-3Ht/view?usp=sharing">RESUME</a></button>
-      </div>
-
-      <!-- User Specifics -->
-      <div class="user">
-        <!-- Technology Stack #1: Languages -->
-        
-
-        <!-- Technology Stack #2: Front-End -->
-        <div class="tech">
-          <h2>Front-End</h2>
-          <i class="devicon-javascript-plain colored"></i>
-
-          <i class="devicon-react-original colored"></i>
-          <i class="devicon-html5-plain-wordmark colored"></i>
-          <i class="devicon-css3-plain-wordmark colored"></i>
-        </div>
-
-        <!-- Technology Stack #3: Back-End -->
-        <div class="tech">
-          <h2>Back-End</h2>
-          <i class="devicon-nodejs-plain colored"></i>
-          <i class="devicon-express-original-wordmark colored"></i>
-          <i class="devicon-mongodb-plain-wordmark colored"></i>
-        </div>
-
-        <!-- Technology Stack #4: Tools -->
-        <div class="tech">
-          <h2>Tools</h2>
-          <i class="devicon-git-plain-wordmark colored"></i>
-          <i class="devicon-visualstudio-plain colored"></i>
-          
-        </div>
-      </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects">
-      <div class="user-details">
-        <h1>Featured Projects</h1>
-      </div>
-
-      <!-- User Project #1: Personal Résumé Website -->
-      <div class="user-projects">
-        <div class="images-right">
-          <picture>
-            <source type="image/webp" srcset="./assets/img/webp/myntra.png" alt="Personal Website" />
-            <img alt="Personal Website" src="./assets/img/jpg/myntra.png" />
-          </picture>
-        </div>
-        <div class="contents" style="text-align: center">
-          <h3>Clone Of Myntra.com</h3>
-          <div>
-            <img
-              height="32"
-              width="32"
-              src="https://unpkg.com/simple-icons@3.4.0/icons/html5.svg"
-              style="filter: invert(73%) sepia(74%) saturate(1552%) hue-rotate(169deg) brightness(109%) contrast(97%)"
-            />
-            &nbsp;
-            <img
-              height="32"
-              width="32"
-              src="https://unpkg.com/simple-icons@3.4.0/icons/css3.svg"
-              style="filter: invert(24%) sepia(14%) saturate(2270%) hue-rotate(222deg) brightness(102%) contrast(90%)"
-            />
-            &nbsp;
-            <img
-            height="32"
-            width="32"
-            src="https://unpkg.com/simple-icons@3.4.0/icons/javascript.svg"
-            style="filter: invert(24%) sepia(14%) saturate(2270%) hue-rotate(222deg) brightness(102%) contrast(90%)"
-          />          </div>
-          <p style="text-align: justify">
-            I have created this clone of Myntra.com with my team which is 
-            an online shopping website using HTML, CSS and Javascript. In this clone we have used local storage
-            to store products and for User authentication.
-          </p>
-          <a class="project-link" target="_blank" href="">Demo</a>
-          <a class="project-link" target="_blank" href="https://github.com/imbickydutta/myntra_clone">Source Code</a>
-        </div>
-      </div>
-
-      <!-- User Project #2: Summer 2020 Project -->
-      <div class="user-projects">
-        <div class="images-left">
-          <picture>
-            <source type="image/webp" srcset="./assets/img/webp/lybrate.jpeg" alt="Perpetual Crusades" />
-            <img alt="Perpetual Crusades" src="./assets/img/jpg/lybrate.jpeg" />
-          </picture>
-        </div>
-        <div class="contents-right" style="text-align: center">
-          <h3>Clone Of Lybrate.com</h3>
-          <img
-            height="32"
-            width="32"
-            src="https://unpkg.com/simple-icons@3.4.0/icons/html5.svg"
-            style="filter: invert(73%) sepia(74%) saturate(1552%) hue-rotate(169deg) brightness(109%) contrast(97%)"
-          />
-          &nbsp;
-          <img
-            height="32"
-            width="32"
-            src="https://unpkg.com/simple-icons@3.4.0/icons/css3.svg"
-            style="filter: invert(33%) sepia(29%) saturate(3844%) hue-rotate(184deg) brightness(90%) contrast(84%)"
-          />
-          &nbsp;
-          <img
-          height="32"
-          width="32"
-          src="https://unpkg.com/simple-icons@3.4.0/icons/javascript.svg"
-          style="filter: invert(33%) sepia(29%) saturate(3844%) hue-rotate(184deg) brightness(90%) contrast(84%)"
-        />
-        <img
-            height="32"
-            width="32"
-            src=https://unpkg.com/simple-icons@3.4.0/icons/mongodb.svg
-            style="filter: invert(33%) sepia(29%) saturate(3844%) hue-rotate(184deg) brightness(90%) contrast(84%)"
-          />
-          &nbsp;
-                  <p style="text-align: justify">
-            With my team we have created the clone of Lybrate.com which is an e-commerce website for online 
-            doctor consultation. We have built this clone using HTML, CSS and Javascript in forntend and mongodb & ExpressJS
-            in backend.
-          </p>
-          <a class="project-link" target="_blank" href="https://lybrate-clone-deploy.herokuapp.com/">Demo</a>
-          <a class="project-link" target="_blank" href="https://github.com/abhishek-hero/lybrate_Clone">Source Code</a>
-        </div>
-      </div>
-
-      <!-- User Project #3: COVID-19 Tracker App -->
-      
-        </div>
-      </div>
-    </section>
-
-    <footer class="footer">
-      <p>&copy; CONTACT: shubhamdobhal@gmail.com</p>
-    </footer>
-
-    <!-- Import JS: Particles Theme -->
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <!-- Import JS: Sweet Scroll -->
-    <script src="./assets/js/sweet-scroll.min.js"></script>
-    <!-- Import JS: Google Analytics -->
-    <script src="./assets/js/google-analytics.js"></script>
-    <!-- Import JS: Main Script -->
-    <script src="./assets/js/main.js"></script>
-  </body>
 </html>
