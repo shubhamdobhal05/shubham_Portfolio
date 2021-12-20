@@ -4198,7 +4198,7 @@ template {
 
 .devicon-express-original-wordmark.colored,
 .devicon-express-original.colored {
-    color: #444
+    color: #2299F8
 }
 
 .devicon-devicon-plain-wordmark.colored,
@@ -4250,7 +4250,7 @@ template {
 
 .devicon-visualstudio-plain-wordmark.colored,
 .devicon-visualstudio-plain.colored {
-    color: #68217a
+    color: #2299F8
 }
 
 .devicon-slack-plain-wordmark.colored,
@@ -4304,14 +4304,14 @@ template {
 
 .devicon-gitlab-plain-wordmark.colored,
 .devicon-gitlab-plain.colored {
-    color: #e24329
+    color: #2299F8
 }
 
 .devicon-github-original-wordmark.colored,
 .devicon-github-original.colored,
 .devicon-github-plain-wordmark.colored,
 .devicon-github-plain.colored {
-    color: #181616
+    color: #2299F8
 }
 
 .devicon-d3js-plain.colored {
@@ -4496,7 +4496,7 @@ template {
 
 .devicon-git-plain-wordmark.colored,
 .devicon-git-plain.colored {
-    color: #f34f29
+    color: #2299F8
 }
 
 .devicon-go-line.colored,
@@ -4628,7 +4628,7 @@ template {
 
 .devicon-nodejs-plain-wordmark.colored,
 .devicon-nodejs-plain.colored {
-    color: #83cd29
+    color: #2299F8
 }
 
 .devicon-nodewebkit-line-wordmark.colored,
@@ -4684,7 +4684,7 @@ template {
 .devicon-react-original.colored,
 .devicon-react-plain-wordmark.colored,
 .devicon-react-plain.colored {
-    color: #61dafb
+    color: #2299F8
 }
 
 .devicon-redhat-original-wordmark.colored,
@@ -5136,3 +5136,4 @@ a img {
 .footer div a {
     margin-left: 10px;
 }
+
